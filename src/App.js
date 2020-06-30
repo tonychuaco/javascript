@@ -4,6 +4,7 @@ import './App.css';
 import data from './data/data.json';
 
 import TableOfContents from './components/TableOfContents';
+import Arrays from './components/Arrays';
 
 export default class App extends Component {
   render() {
@@ -13,7 +14,8 @@ export default class App extends Component {
     return (
       <>
       <h1>JavaScript</h1>
-      <TableOfContents />
+      {/* <TableOfContents /> */}
+      <Arrays />
       <section className="container-fluid">
         <h2>Index</h2>
         <ul className="list-unstyled">
