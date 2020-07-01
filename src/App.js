@@ -5,6 +5,7 @@ import data from './data/data.json';
 
 import TableOfContents from './components/TableOfContents';
 import Arrays from './components/Arrays';
+import Conditions from './components/Conditions';
 
 export default class App extends Component {
   render() {
@@ -16,6 +17,7 @@ export default class App extends Component {
       <h1>JavaScript</h1>
       {/* <TableOfContents /> */}
       <Arrays />
+      <Conditions />
       <section className="container-fluid">
         <h2>Index</h2>
         <ul className="list-unstyled">
