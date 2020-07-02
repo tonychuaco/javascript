@@ -7,6 +7,7 @@ import TableOfContents from './components/TableOfContents';
 import Arrays from './components/Arrays';
 import Conditions from './components/Conditions';
 import DataTypes from './components/DataTypes';
+import Events from './components/Events';
 
 export default class App extends Component {
   render() {
@@ -19,7 +20,8 @@ export default class App extends Component {
       {/* <TableOfContents /> */}
       {/* <Arrays /> */}
       {/* <Conditions /> */}
-      <DataTypes />
+      {/* <DataTypes /> */}
+      <Events />
       <section className="container-fluid">
         <h2>Index</h2>
         <ul className="list-unstyled">
